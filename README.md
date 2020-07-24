@@ -2,7 +2,7 @@ DeCAPTCHA_CS771
 ===============
 #### A machine learning &amp; OpenCV based solution to a DeCAPTCHA problem.  
 
-This project was created as a solution to an assignment(3rd) for the *2019 Sem-I* offering of **CS771 Introduction to Machine Learning** by *Prof. Purushottam Kar*.  
+This project was created as a solution to an assignment(3rd) for the *2019 Sem-I* offering of **CS771 Introduction to Machine Learning** by *Prof. Purushottam Kar*. Dataset for the problem was provided by the associated faculty.  
   
 **Problem Statement :** CAPTCHAs (Completely Automated Public Turing test to tell Computers and Humans Apart) are popular ways of preventing bots from attempting to logon to systems by extensively searching the password space. In its traditional form, an image is given which contains a few characters (sometimes with some obfuscation thrown in). The challenge is to identify what those characters are and in what order.
 
