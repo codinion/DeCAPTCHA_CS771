@@ -1,3 +1,9 @@
+""" 
+This script contains functions for predicting the number of alphabets and the code in the given test images.
+This script is called by the eval script.
+Author : Script provided by instructor for evaluation.
+"""
+
 import predict
 import time as tm
 import numpy as np
@@ -29,7 +35,7 @@ def getCodeMatchScore( codes, goldCodes ):
         totScore += getLCS( codes[i], goldCodes[i] ) / len( goldCodes[i] )
     return totScore
 
-numTest = 2000
+numTest = 3
 filepaths = [ "test/image%d.png" % i for i in range( numTest ) ]
 file = open( "test/codes.txt", "r" )
 goldCodes = file.read().splitlines()
